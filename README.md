@@ -31,20 +31,24 @@ Replace the `src` attribute of the `<img>` tag with the URL of your profile imag
 
 ```html
 <img src="https://your-image-url.com" alt="Your Name" width="130" height="130" style="border-radius: 50%; margin-right: 20px;">
+```
 
 ### Name and Professional Profile
 Edit the text inside the <p> tags with id="name" and id="professionalProfile" to reflect your name and professional title.
 
+```html
     <p id="name" class="content" style="font-size: 20px; font-weight: bold; color: #00470a; margin-top: 0; margin-bottom: 0; position: relative;">
     YOUR NAME
 </p>
 <p id="professionalProfile" class="content" style="z-index: 1;font-size: 14px;color: #00470a; margin-top: 2px; padding-top: 0;">
     YOUR PROFESSIONAL TITLE
 </p>
+```
 
 ### Contact Information
 Update the href attributes and text content of the <a> tags with id="phone", id="email", id="website", and id="linkedin" to include your contact details.
 
+```html
 <a id="phone" href="tel:+1234567890" style="text-decoration: none; color: #00470a; display: inline-flex; justify-content: center; align-items: center;">
     <img src="https://your-phone-icon-url.com" alt="Phone" width="18" height="18" style="padding-right: 5px;">
     +1 (234) 567-890
@@ -64,6 +68,7 @@ Update the href attributes and text content of the <a> tags with id="phone", id=
     <img src="https://your-linkedin-icon-url.com" alt="LinkedIn" width="18" height="18" style="padding-right: 5px;">
     your-linkedin-profile
 </a>
+```
 
 
 
