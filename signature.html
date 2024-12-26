@@ -3,120 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* General reset for email clients */
-        table {
-            border-spacing: 0;
-            border-collapse: collapse;
-        }
-        img {
-            display: block;
-            border: 0;
-            outline: none;
-        }
-
-        /* Container Styling */
-        .email-signature {
-            font-family: 'Montserrat', Arial, sans-serif;
-            color: #444;
-            line-height: 1.5;
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        /* Column Styling */
-        .email-signature td {
-            padding: 2px;
-            vertical-align: middle;
-        }
-
-        .email-image img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-        }
-
-        .email-info {
-            color: #1B1F23;
-        }
-
-        .email-info p {
-            margin: 0;
-        }
-
-        .divider {
-            height: 8px;
-            background: linear-gradient(90deg, #008080, #00FFB3);
-            width: 80%;
-            margin: 8px 0;
-        }
-
-        /* Footer Links */
-        .footer-links {
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        .footer-links a {
-            margin: 0 5px;
-            text-decoration: none;
-            color: #008080;
-        }
-
-        .footer-links img {
-            width: 20px;
-            height: 20px;
-        }
-    </style>
 </head>
 <body>
     <table class="email-signature" cellpadding="0" cellspacing="0">
         <tr>
             <!-- Profile Image -->
-            <td style="width: 110px;">
+            <td style="width: 110px; height: 100%; display: flex; justify-content: center; align-items: center;">
                 <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/foto3.png" alt="Ernesto Contreras" width="100" height="100" style="border-radius: 50%;">
+                <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/barGradientVertical.png" alt="divider" style="width: 100%; height: 1px; margin: 8px 0;">
+                <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/barGradientVertical.png" alt="divider" style="width: 100%; height: 1px; margin: 8px 0;">
             </td>
 
             <!-- Info Section -->
             <td class="email-info" style="font-family: 'Arial';">
+                <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logobg.png" alt="Location" width="18" height="18" style="padding-right: 5px; z-index: 0;">
                 <p style="font-size: 20px; font-weight: bold;">Ernesto Contreras</p>
-                <p style="font-size: 14px;">IT Support <span style="margin: 0 5px; color: #008080;">|</span> Web Developer</p>
-                <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/barGradient.png" alt="divider" style="width: 80%; height: 2px; margin: 8px 0;">
-        
-                <p style="font-size: 12px; display: inline-flex; align-items: center; justify-content: center;">
+                <p style="font-size: 14px;">IT Support <span style="margin: 0 5px; color: #008080;">|</span> Web Developer</p>        
+
+                <p style="font-size: 12px; width: 100%; display: flexbox; justify-content: start; align-items: center;">
                     <!-- phone info -->
                     <a href="tel:+1-236-457-5422" style="text-decoration: none; color: #008080; display: inline-flex;">
-                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconPhone.svg" alt="Website" width="18" height="18" style="margin-right: 5px;">
+                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconPhone.svg" alt="Website" width="18" height="18" style="padding-right: 5px;">
                         +1 (236) 457-5422
-                    </a> 
-                    <span style="margin: 0 5px; color: #008080;">|</span>
+                    </a>
+                </p>
+                <p>
                     <a href="mailto:ejcontrerast@outlook.com" style="text-decoration: none; color: #008080; display: inline-flex;">
-                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconMail.svg" alt="Website" width="18" height="18" style="margin-right: 5px;">
+                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconMail.svg" alt="Website" width="18" height="18" style="padding-right: 5px;">
                         ejcontrerast@outlook.com
                     </a>
                 </p>
-            </td>
-        </tr>
-    
-
-        <!-- Footer Links -->
-        <tr display="block" >
-            <td colspan="2" class="footer-links" style="text-align: center;">
-                <div style="display: inline-flex; align-items: center; gap: 10px; justify-content: center; width: 100%;">
-                    <a href="https://github.com/ejcontrerast" target="_blank" style="display: inline-flex; align-items: center; text-decoration: none;">
-                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconGithub.svg" alt="Website" width="18" height="18" style="margin-right: 5px;">
-                        Github
+                <p>
+                    <a href="mailto:ejcontrerast@outlook.com" style="text-decoration: none; color: #008080; display: inline-flex;">
+                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconMail.svg" alt="Website" width="18" height="18" style="padding-right: 5px;">
+                        ejcontrerast@outlook.com
                     </a>
-                    <a href="https://linkedin.com/in/ejcontrerast" target="_blank" style="display: inline-flex; align-items: center; text-decoration: none;">
-                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconLinkedin.svg" alt="Website" width="18" height="18" style="margin-right: 5px;">
-                        LinkedIn
+                </p>
+                <p>
+                    <a href="mailto:ejcontrerast@outlook.com" style="text-decoration: none; color: #008080; display: inline-flex;">
+                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconMail.svg" alt="Website" width="18" height="18" style="padding-right: 5px;">
+                        ejcontrerast@outlook.com
                     </a>
-                    <a href="https://ecdev.tech" target="_blank" style="display: inline-flex; align-items: center; text-decoration: none;">
-                        <img src="https://raw.githubusercontent.com/ejcontrerast/emailSignature/main/public/logos/iconWebsite.svg" alt="Website" width="18" height="18" style="margin-right: 5px;">
-                        Website
-                    </a>
-                </div>
+                </p>
             </td>
         </tr>
     </table>
